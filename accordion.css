@@ -1,0 +1,23 @@
+
+
+.mb-0 {
+    margin-bottom: 0 !important;
+    background-color: white;
+}
+.btn-link {
+    font-weight: 600;
+    color: #1d1d1d;
+    background-color: transparent;
+    font-size: 20px;
+}
+.btn-link:hover {
+    color: #1d1d1d;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+    border-color: transparent;
+    box-shadow: none;
+}

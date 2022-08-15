@@ -1,0 +1,340 @@
+/* ALL */
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+
+
+/* whole navber */
+
+.navbar
+{
+    margin-top: 40px;
+}
+.bg-light
+{
+    background-color: black !important;
+}
+
+/* logo */
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+/* navbar link*/
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-nav{
+    margin-left: 10%;
+}
+.nav-item{
+    padding-left: 30px;
+}
+
+
+/* search */
+
+
+.btn_nav
+{
+    margin-right: 80px; 
+    padding: 10px 30px; 
+}
+.btn-outline-success {
+    color: white;
+    background-color:  #1d1d1d;
+    background-image: none;
+    border-radius: 50px;
+    border-color:  #1d1d1d;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+
+
+
+/* header */
+
+
+
+.header
+{
+    background-color: black;
+    padding-bottom: 120px;
+}
+.header_photo img
+{
+    margin-top: -35%;
+    margin-left: 900px;
+    width: 20%;
+    height: 100%;
+    box-shadow: rgb(170 170 170) 1px 4px 20px 9px;
+}
+.header_content{
+    margin-left: 100px;
+    padding-top: 50px;
+    margin-right: 100px;
+    padding-left: 20px;
+}
+.header_content h1
+{
+    font-size: 70px;
+    color: white;
+    margin-top: 140px;
+    font-weight: 600;
+}
+.header_content p
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.header_content button
+{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border-color: none;
+    background-color: #1d1d1d;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* slider marquee section */
+
+
+
+.marquee
+{
+    border-top: 1px solid #1d1d1d;
+    border-bottom: 1px solid #1d1d1d;
+}
+.marquee_text
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.marquee_img
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 50%;
+}
+.mark_img
+{
+    width: 15%;
+    height: auto;
+}
+
+
+
+/* card section */
+
+.card_section
+{
+    padding-bottom: 15%;
+}
+.text h1
+{
+    padding-top: 200px;
+    color : white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+}
+.text p
+{
+    padding-top: 20px;
+    color : white;
+    text-align: center;
+}
+.container{
+    padding-top: 50px;
+    color: #fff;
+}
+.card {
+    border: none;
+    border-top: 3px solid #1d1d1d;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+}
+.card-body {
+    background-color: #1d1d1d;
+}
+.card-text{
+    padding: 2px 16px;
+    background-color: #1d1d1d;
+}
+
+
+/* progress section */
+
+.progress_heading
+{
+    font-size: 55px;
+    font-weight: 600;
+}
+.btn_progress
+{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #1d1d1d;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+.accordion_section
+{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+/* work_with_togather section */
+.work_with_togather
+{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #fff;
+}
+.work_with_togather_heading
+{
+    font-size: 70px;
+    font-weight: 600;
+    background-color: #fff;
+    color: black;
+}
+.work_with_togather_paragraph
+{
+    font-size: 20px;
+    color: #1d1d1d;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.btn_work_with_togather
+{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #1d1d1d;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/* footer */
+
+.footer
+{
+    padding: 60px;
+}
+.email span
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+.email .email_icon{
+    color: #fff;
+    padding-top: 30px;
+}
+.phone span
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.phone .phone_icon{
+    color: #fff;
+    padding-top: 20px;
+}
+.manu_order{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.manu_item
+{
+    color: #fff;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.social_media_order
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.social_media_item
+{
+    color: #fff;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.visit_order
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.address
+{
+    color: #fff;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.copyright_section
+{
+    border-top: 1px solid #1d1d1d;
+    padding-top: 7px;
+}
+.copyright
+{
+    color: #fff;
+    font-size: 15px;
+}
